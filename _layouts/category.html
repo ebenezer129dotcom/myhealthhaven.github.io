@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="category-page">
+  <h1>{{ page.title }}</h1>
+  <p>Explore all posts under <strong>{{ page.title }}</strong> 👇</p>
+  <ul>
+    {% assign category_posts = site.categories[page.category] %}
+    {% if category_posts %}
+      {% for post in category_posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          <small>— {{ post.date | date: "%B %d, %Y" }}</small>
+        </li>
+      {% endfor %}
+    {% else %}
+      <p>No posts available in this category yet.</p>
+    {% endif %}
+  </ul>
+</div>
+
+<style>
+.category-page {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+.category-page h1 {
+  color: #2c6e49;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.category-page ul {
+  list-style: none;
+  padding: 0;
+}
+.category-page li {
+  margin: 10px 0;
+}
+.category-page a {
+  color: #3a7d44;
+  text-decoration: none;
+  font-weight: bold;
+}
+.category-page a:hover {
+  text-decoration: underline;
+}
+</style>
