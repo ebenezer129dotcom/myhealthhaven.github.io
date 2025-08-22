@@ -17,7 +17,6 @@ google_analytics:
 cayman-blog:
   date_format: "%b %-d, %Y"
 
-theme: jekyll-theme-cayman-blog
 
 # social
 author: Ebenezer
@@ -31,6 +30,7 @@ target-blank:
     rel: nofollow
 
 header_page_refs: ['now', 'about', 'contact']
+
 
 
 
