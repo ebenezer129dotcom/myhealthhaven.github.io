@@ -1,38 +1,9 @@
 title: My Health Haven
-description: Simple steps to a healthier, happier you.
+tagline: "Simple steps to a healthier, happier you"
+description: "Your trusted space for simple, reliable, and inspiring health tips. Discover wellness practices, nutrition ideas, and self-care guides to live a healthier, happier life."
+
+# Navigation menu (these pages must exist in your repo)
 header_pages:
   - index.md
   - about.md
   - contact.md
-show_downloads: true
-
-baseurl: "/cayman-blog" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
-url: "https://ebenezer129dotcom.github.io/myhealthhaven.github.io/" # change this to the base hostname & protocol for your site
-
-
-google_analytics:
-
-# cayman-blog date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-cayman-blog:
-  date_format: "%b %-d, %Y"
-
-
-# social
-author: Ebenezer
-image: /thumbnail-jumbo.png
-twitter:
-  username: ebenezer
-plugins:
-  - jekyll-target-blank
-
-target-blank:
-    rel: nofollow
-
-header_page_refs: ['now', 'about', 'contact']
-
-
-
-
-
-
