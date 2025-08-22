@@ -29,8 +29,11 @@ header_page_refs: ['now', 'about', 'contact']
 header_pages:
   - index.md
   - about.md
-  - health-tips.md
+  - nutrition.md
   - contact.md
+  - wellness-tips.md
+  - fitness.md
+
 
 
 
