@@ -1,5 +1,17 @@
 title: My Health Haven
 description: Your trusted space for health, wellness, and balance. Here, we believe that small lifestyle choices create big transformations. From mindful nutrition tips and simple fitness routines to stress management and self-care, we’re here to guide you toward living your healthiest, happiest life.
+# Navigation menu
+nav:
+  - title: "Home"
+    url: /
+  - title: "Nutrition"
+    url: /nutrition/
+  - title: "Wellness Tips"
+    url: /wellness/
+  - title: "Fitness"
+    url: /fitness/
+  - title: "About"
+    url: /about/
 
 baseurl: "/cayman-blog" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://lorepirri.github.io" # change this to the base hostname & protocol for your site
@@ -27,6 +39,7 @@ target-blank:
     rel: nofollow
 
 header_page_refs: ['now', 'about', 'contact']
+
 
 
 
